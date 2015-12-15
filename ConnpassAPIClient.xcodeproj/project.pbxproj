@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C39932F1C19827F00AD3AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39932E1C19827F00AD3AAE /* AppDelegate.swift */; };
+		5C3993311C19827F00AD3AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3993301C19827F00AD3AAE /* ViewController.swift */; };
+		5C3993341C19827F00AD3AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3993321C19827F00AD3AAE /* Main.storyboard */; };
+		5C3993361C19827F00AD3AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3993351C19827F00AD3AAE /* Assets.xcassets */; };
+		5C3993391C19827F00AD3AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3993371C19827F00AD3AAE /* LaunchScreen.storyboard */; };
+		5C3993601C198A8500AD3AAE /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935D1C198A8500AD3AAE /* APIKit.framework */; };
+		5C3993611C198A8500AD3AAE /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935E1C198A8500AD3AAE /* Himotoki.framework */; };
+		5C3993621C198A8500AD3AAE /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935F1C198A8500AD3AAE /* Result.framework */; };
+		5C3993641C198AC900AD3AAE /* Connpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3993631C198AC900AD3AAE /* Connpass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C39932B1C19827F00AD3AAE /* ConnpassAPIClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnpassAPIClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C39932E1C19827F00AD3AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5C3993301C19827F00AD3AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5C3993331C19827F00AD3AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C3993351C19827F00AD3AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C3993381C19827F00AD3AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C39933A1C19827F00AD3AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C39935D1C198A8500AD3AAE /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		5C39935E1C198A8500AD3AAE /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
+		5C39935F1C198A8500AD3AAE /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		5C3993631C198AC900AD3AAE /* Connpass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connpass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C3993281C19827F00AD3AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3993601C198A8500AD3AAE /* APIKit.framework in Frameworks */,
+				5C3993611C198A8500AD3AAE /* Himotoki.framework in Frameworks */,
+				5C3993621C198A8500AD3AAE /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C3993221C19827F00AD3AAE = {
+			isa = PBXGroup;
+			children = (
+				5C39935D1C198A8500AD3AAE /* APIKit.framework */,
+				5C39935F1C198A8500AD3AAE /* Result.framework */,
+				5C39935E1C198A8500AD3AAE /* Himotoki.framework */,
+				5C39932D1C19827F00AD3AAE /* ConnpassAPIClient */,
+				5C39932C1C19827F00AD3AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C39932C1C19827F00AD3AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C39932B1C19827F00AD3AAE /* ConnpassAPIClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C39932D1C19827F00AD3AAE /* ConnpassAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				5C39932E1C19827F00AD3AAE /* AppDelegate.swift */,
+				5C3993301C19827F00AD3AAE /* ViewController.swift */,
+				5C3993631C198AC900AD3AAE /* Connpass.swift */,
+				5C3993321C19827F00AD3AAE /* Main.storyboard */,
+				5C3993351C19827F00AD3AAE /* Assets.xcassets */,
+				5C3993371C19827F00AD3AAE /* LaunchScreen.storyboard */,
+				5C39933A1C19827F00AD3AAE /* Info.plist */,
+			);
+			path = ConnpassAPIClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C39932A1C19827F00AD3AAE /* ConnpassAPIClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3993531C19828000AD3AAE /* Build configuration list for PBXNativeTarget "ConnpassAPIClient" */;
+			buildPhases = (
+				5C3993271C19827F00AD3AAE /* Sources */,
+				5C3993281C19827F00AD3AAE /* Frameworks */,
+				5C3993291C19827F00AD3AAE /* Resources */,
+				5C39935C1C1984ED00AD3AAE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnpassAPIClient;
+			productName = MyConnpass;
+			productReference = 5C39932B1C19827F00AD3AAE /* ConnpassAPIClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C3993231C19827F00AD3AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sathachie;
+				TargetAttributes = {
+					5C39932A1C19827F00AD3AAE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 5C3993261C19827F00AD3AAE /* Build configuration list for PBXProject "ConnpassAPIClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C3993221C19827F00AD3AAE;
+			productRefGroup = 5C39932C1C19827F00AD3AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C39932A1C19827F00AD3AAE /* ConnpassAPIClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C3993291C19827F00AD3AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3993391C19827F00AD3AAE /* LaunchScreen.storyboard in Resources */,
+				5C3993361C19827F00AD3AAE /* Assets.xcassets in Resources */,
+				5C3993341C19827F00AD3AAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C39935C1C1984ED00AD3AAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Himotoki.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C3993271C19827F00AD3AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3993641C198AC900AD3AAE /* Connpass.swift in Sources */,
+				5C3993311C19827F00AD3AAE /* ViewController.swift in Sources */,
+				5C39932F1C19827F00AD3AAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C3993321C19827F00AD3AAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C3993331C19827F00AD3AAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C3993371C19827F00AD3AAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C3993381C19827F00AD3AAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C3993511C19828000AD3AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C3993521C19828000AD3AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C3993541C19828000AD3AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MyConnpass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.martha.MyConnpass;
+				PRODUCT_NAME = ConnpassAPIClient;
+			};
+			name = Debug;
+		};
+		5C3993551C19828000AD3AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MyConnpass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.martha.MyConnpass;
+				PRODUCT_NAME = ConnpassAPIClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C3993261C19827F00AD3AAE /* Build configuration list for PBXProject "ConnpassAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3993511C19828000AD3AAE /* Debug */,
+				5C3993521C19828000AD3AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3993531C19828000AD3AAE /* Build configuration list for PBXNativeTarget "ConnpassAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3993541C19828000AD3AAE /* Debug */,
+				5C3993551C19828000AD3AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C3993231C19827F00AD3AAE /* Project object */;
+}
