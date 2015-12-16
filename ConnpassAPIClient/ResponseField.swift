@@ -20,7 +20,7 @@ extension ConnpassRequestType {
     }
 }
 
-struct GetEventSearchRequest: ConnpassRequestType {
+struct GetSearchEventRequest: ConnpassRequestType {
     typealias Response = ResponseField
     
     var method: HTTPMethod {

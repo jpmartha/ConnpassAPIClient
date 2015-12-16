@@ -28,7 +28,7 @@ ConnpassDelegate {
         super.viewDidAppear(animated)
         
         connpass.delegate = self
-        connpass.sendRequest()
+        connpass.sendSearchEventRequest()
     }
     
     // MARK: - UITableViewDataSource
@@ -64,7 +64,7 @@ ConnpassDelegate {
     
     // MARK: - ConnpassDelegate
     
-    func eventSearchDidFinish(events: [Event]) {
+    func searchEventDidFinish(events: [Event]) {
         data = events
     }
 }

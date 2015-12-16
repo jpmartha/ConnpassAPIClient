@@ -10,7 +10,7 @@ import Foundation
 import APIKit
 
 protocol ConnpassDelegate {
-    func eventSearchDidFinish(events: [Event])
+    func searchEventDidFinish(events: [Event])
 }
 
 public class Connpass {
@@ -19,8 +19,8 @@ public class Connpass {
     
     var events = [Event]()
     
-    func sendRequest() {
-        let request = GetEventSearchRequest()
+    func sendSearchEventRequest() {
+        let request = GetSearchEventRequest()
         
         Session.sendRequest(request) { result in
             switch result {
@@ -40,7 +40,7 @@ public class Connpass {
                     self.events.append(event)
                 }
                 
-                self.delegate!.eventSearchDidFinish(self.events)
+                self.delegate!.searchEventDidFinish(self.events)
                 
             case .Failure(let error):
                 print("error: \(error)")
