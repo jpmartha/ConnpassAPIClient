@@ -76,7 +76,7 @@ protocol ConnpassDelegate {
     func eventSearchDidFinish(events: [Event])
 }
 
-class Connpass {
+public class Connpass {
     
     var delegate: ConnpassDelegate?
     
