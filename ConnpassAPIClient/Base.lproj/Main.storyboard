@@ -8,7 +8,7 @@
         <!--connpass-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="connpass" id="BYZ-38-t0r" customClass="ViewController" customModule="MyConnpass" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="connpass" id="BYZ-38-t0r" customClass="ViewController" customModule="ConnpassAPIClient" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
