@@ -1,6 +1,6 @@
 //
 //  Connpass.swift
-//  MyConnpass
+//  ConnpassAPIClient
 //
 //  Created by JPMartha on 2015/12/10.
 //  Copyright © 2015年 JPMartha. All rights reserved.
