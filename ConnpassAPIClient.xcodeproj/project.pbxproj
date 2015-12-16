@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C1ADDBE1C2144AE00DB8D81 /* ResponseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1ADDBD1C2144AE00DB8D81 /* ResponseField.swift */; };
 		5C39932F1C19827F00AD3AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39932E1C19827F00AD3AAE /* AppDelegate.swift */; };
 		5C3993311C19827F00AD3AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3993301C19827F00AD3AAE /* ViewController.swift */; };
 		5C3993341C19827F00AD3AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3993321C19827F00AD3AAE /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C1ADDBD1C2144AE00DB8D81 /* ResponseField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseField.swift; sourceTree = "<group>"; };
 		5C39932B1C19827F00AD3AAE /* ConnpassAPIClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnpassAPIClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C39932E1C19827F00AD3AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C3993301C19827F00AD3AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -71,6 +73,7 @@
 				5C39932E1C19827F00AD3AAE /* AppDelegate.swift */,
 				5C3993301C19827F00AD3AAE /* ViewController.swift */,
 				5C3993631C198AC900AD3AAE /* Connpass.swift */,
+				5C1ADDBD1C2144AE00DB8D81 /* ResponseField.swift */,
 				5C3993321C19827F00AD3AAE /* Main.storyboard */,
 				5C3993351C19827F00AD3AAE /* Assets.xcassets */,
 				5C3993371C19827F00AD3AAE /* LaunchScreen.storyboard */,
@@ -108,7 +111,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = sathachie;
+				ORGANIZATIONNAME = JPMartha;
 				TargetAttributes = {
 					5C39932A1C19827F00AD3AAE = {
 						CreatedOnToolsVersion = 7.2;
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C3993641C198AC900AD3AAE /* Connpass.swift in Sources */,
+				5C1ADDBE1C2144AE00DB8D81 /* ResponseField.swift in Sources */,
 				5C3993311C19827F00AD3AAE /* ViewController.swift in Sources */,
 				5C39932F1C19827F00AD3AAE /* AppDelegate.swift in Sources */,
 			);
@@ -289,7 +293,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/ConnpassAPIClient/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.martha.MyConnpass;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.martha.ConnpassAPIClient;
 				PRODUCT_NAME = ConnpassAPIClient;
 			};
 			name = Debug;
@@ -304,7 +308,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/ConnpassAPIClient/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.martha.MyConnpass;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.martha.ConnpassAPIClient;
 				PRODUCT_NAME = ConnpassAPIClient;
 			};
 			name = Release;

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  MyConnpass
+//  ConnpassAPIClient
 //
 //  Created by JPMartha on 2015/12/10.
 //  Copyright © 2015年 JPMartha. All rights reserved.
@@ -28,7 +28,7 @@ ConnpassDelegate {
         super.viewDidAppear(animated)
         
         connpass.delegate = self
-        connpass.sendRequest()
+        connpass.sendSearchEventRequest()
     }
     
     // MARK: - UITableViewDataSource
@@ -64,7 +64,7 @@ ConnpassDelegate {
     
     // MARK: - ConnpassDelegate
     
-    func eventSearchDidFinish(events: [Event]) {
+    func searchEventDidFinish(events: [Event]) {
         data = events
     }
 }
