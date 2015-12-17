@@ -40,8 +40,10 @@ public class Connpass {
                     self.events.append(event)
                 }
                 
-                self.delegate!.searchEventDidFinish(self.events)
-                
+                if let delegate = self.delegate {
+                    delegate.searchEventDidFinish(self.events)
+                }
+
             case .Failure(let error):
                 print("error: \(error)")
             }
