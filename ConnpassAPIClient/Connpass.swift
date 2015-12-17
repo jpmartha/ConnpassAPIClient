@@ -19,7 +19,7 @@ public class Connpass {
     
     var events = [Event]()
     
-    func sendSearchEventRequest() {
+    public func sendSearchEventRequest() {
         let request = GetSearchEventRequest()
         
         Session.sendRequest(request) { result in
