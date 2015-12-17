@@ -15,11 +15,11 @@ protocol ConnpassDelegate {
 
 public class Connpass {
     
-    var delegate: ConnpassDelegate?
+    static var delegate: ConnpassDelegate?
     
-    var events = [Event]()
+    static var events = [Event]()
     
-    public func sendSearchEventRequest() {
+    public static func sendSearchEventRequest() {
         let request = GetSearchEventRequest()
         
         Session.sendRequest(request) { result in
