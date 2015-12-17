@@ -55,12 +55,12 @@
 		5C1ADDBD1C2144AE00DB8D81 /* ResponseField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseField.swift; sourceTree = "<group>"; };
 		5C1ADDC11C21867200DB8D81 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
 		5C39932B1C19827F00AD3AAE /* ConnpassAPIClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnpassAPIClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C39932E1C19827F00AD3AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = AppDelegate.swift; path = ConnpassAPIClient/AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		5C3993301C19827F00AD3AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ViewController.swift; path = ConnpassAPIClient/ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5C39932E1C19827F00AD3AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5C3993301C19827F00AD3AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C3993331C19827F00AD3AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5C3993351C19827F00AD3AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ConnpassAPIClient/Assets.xcassets; sourceTree = "<group>"; };
+		5C3993351C19827F00AD3AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3993381C19827F00AD3AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5C39933A1C19827F00AD3AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ConnpassAPIClient/Info.plist; sourceTree = "<group>"; };
+		5C39933A1C19827F00AD3AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C39935D1C198A8500AD3AAE /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
 		5C39935F1C198A8500AD3AAE /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		5C3993631C198AC900AD3AAE /* Connpass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connpass.swift; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 				5C3993371C19827F00AD3AAE /* LaunchScreen.storyboard */,
 				5C39933A1C19827F00AD3AAE /* Info.plist */,
 			);
-			name = DemoApp;
+			path = DemoApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,7 +313,6 @@
 				5C3993331C19827F00AD3AAE /* Base */,
 			);
 			name = Main.storyboard;
-			path = ConnpassAPIClient;
 			sourceTree = "<group>";
 		};
 		5C3993371C19827F00AD3AAE /* LaunchScreen.storyboard */ = {
@@ -322,7 +321,6 @@
 				5C3993381C19827F00AD3AAE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ConnpassAPIClient;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,7 +416,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/ConnpassAPIClient/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DemoApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.martha.ConnpassAPIClient;
 				PRODUCT_NAME = ConnpassAPIClient;
@@ -434,7 +432,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/ConnpassAPIClient/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DemoApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.martha.ConnpassAPIClient;
 				PRODUCT_NAME = ConnpassAPIClient;
