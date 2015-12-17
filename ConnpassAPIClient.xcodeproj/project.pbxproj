@@ -19,7 +19,6 @@
 		5C3993641C198AC900AD3AAE /* Connpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3993631C198AC900AD3AAE /* Connpass.swift */; };
 		5C704FDE1C224DA900D398C7 /* ConnpassAPIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C704FDD1C224DA900D398C7 /* ConnpassAPIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C704FE21C224DA900D398C7 /* ConnpassAPIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C704FDB1C224DA900D398C7 /* ConnpassAPIKit.framework */; };
-		5C704FE31C224DA900D398C7 /* ConnpassAPIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C704FDB1C224DA900D398C7 /* ConnpassAPIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5C704FE71C226F0900D398C7 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935D1C198A8500AD3AAE /* APIKit.framework */; };
 		5C704FE81C226F0D00D398C7 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935F1C198A8500AD3AAE /* Result.framework */; };
 		5C704FE91C226F1300D398C7 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1ADDC11C21867200DB8D81 /* Himotoki.framework */; };
@@ -44,7 +43,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5C704FE31C224DA900D398C7 /* ConnpassAPIKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +513,7 @@
 				5C704FE61C224DAA00D398C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
