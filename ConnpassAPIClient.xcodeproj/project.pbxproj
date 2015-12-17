@@ -8,19 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		5C1ADDBE1C2144AE00DB8D81 /* ResponseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1ADDBD1C2144AE00DB8D81 /* ResponseField.swift */; };
+		5C1ADDC21C21867200DB8D81 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1ADDC11C21867200DB8D81 /* Himotoki.framework */; };
 		5C39932F1C19827F00AD3AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39932E1C19827F00AD3AAE /* AppDelegate.swift */; };
 		5C3993311C19827F00AD3AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3993301C19827F00AD3AAE /* ViewController.swift */; };
 		5C3993341C19827F00AD3AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3993321C19827F00AD3AAE /* Main.storyboard */; };
 		5C3993361C19827F00AD3AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3993351C19827F00AD3AAE /* Assets.xcassets */; };
 		5C3993391C19827F00AD3AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3993371C19827F00AD3AAE /* LaunchScreen.storyboard */; };
 		5C3993601C198A8500AD3AAE /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935D1C198A8500AD3AAE /* APIKit.framework */; };
-		5C3993611C198A8500AD3AAE /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935E1C198A8500AD3AAE /* Himotoki.framework */; };
 		5C3993621C198A8500AD3AAE /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935F1C198A8500AD3AAE /* Result.framework */; };
 		5C3993641C198AC900AD3AAE /* Connpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3993631C198AC900AD3AAE /* Connpass.swift */; };
+		5C704FDE1C224DA900D398C7 /* ConnpassAPIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C704FDD1C224DA900D398C7 /* ConnpassAPIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C704FE21C224DA900D398C7 /* ConnpassAPIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C704FDB1C224DA900D398C7 /* ConnpassAPIKit.framework */; };
+		5C704FE31C224DA900D398C7 /* ConnpassAPIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C704FDB1C224DA900D398C7 /* ConnpassAPIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5C704FE71C226F0900D398C7 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935D1C198A8500AD3AAE /* APIKit.framework */; };
+		5C704FE81C226F0D00D398C7 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935F1C198A8500AD3AAE /* Result.framework */; };
+		5C704FE91C226F1300D398C7 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1ADDC11C21867200DB8D81 /* Himotoki.framework */; };
+		5C704FEA1C226F2000D398C7 /* Connpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3993631C198AC900AD3AAE /* Connpass.swift */; };
+		5C704FEB1C226F2300D398C7 /* ResponseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1ADDBD1C2144AE00DB8D81 /* ResponseField.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C704FE01C224DA900D398C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C3993231C19827F00AD3AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C704FDA1C224DA900D398C7;
+			remoteInfo = ConnpassAPIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C704FCE1C223F0800D398C7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C704FE31C224DA900D398C7 /* ConnpassAPIKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5C1ADDBD1C2144AE00DB8D81 /* ResponseField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseField.swift; sourceTree = "<group>"; };
+		5C1ADDC11C21867200DB8D81 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
 		5C39932B1C19827F00AD3AAE /* ConnpassAPIClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnpassAPIClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C39932E1C19827F00AD3AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C3993301C19827F00AD3AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -29,9 +62,11 @@
 		5C3993381C19827F00AD3AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C39933A1C19827F00AD3AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C39935D1C198A8500AD3AAE /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
-		5C39935E1C198A8500AD3AAE /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
 		5C39935F1C198A8500AD3AAE /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		5C3993631C198AC900AD3AAE /* Connpass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connpass.swift; sourceTree = "<group>"; };
+		5C704FDB1C224DA900D398C7 /* ConnpassAPIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConnpassAPIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C704FDD1C224DA900D398C7 /* ConnpassAPIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnpassAPIKit.h; sourceTree = "<group>"; };
+		5C704FDF1C224DA900D398C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +74,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1ADDC21C21867200DB8D81 /* Himotoki.framework in Frameworks */,
 				5C3993601C198A8500AD3AAE /* APIKit.framework in Frameworks */,
-				5C3993611C198A8500AD3AAE /* Himotoki.framework in Frameworks */,
 				5C3993621C198A8500AD3AAE /* Result.framework in Frameworks */,
+				5C704FE21C224DA900D398C7 /* ConnpassAPIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C704FD71C224DA900D398C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C704FE71C226F0900D398C7 /* APIKit.framework in Frameworks */,
+				5C704FE81C226F0D00D398C7 /* Result.framework in Frameworks */,
+				5C704FE91C226F1300D398C7 /* Himotoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +99,9 @@
 			children = (
 				5C39935D1C198A8500AD3AAE /* APIKit.framework */,
 				5C39935F1C198A8500AD3AAE /* Result.framework */,
-				5C39935E1C198A8500AD3AAE /* Himotoki.framework */,
+				5C1ADDC11C21867200DB8D81 /* Himotoki.framework */,
 				5C39932D1C19827F00AD3AAE /* ConnpassAPIClient */,
+				5C704FDC1C224DA900D398C7 /* ConnpassAPIKit */,
 				5C39932C1C19827F00AD3AAE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				5C39932B1C19827F00AD3AAE /* ConnpassAPIClient.app */,
+				5C704FDB1C224DA900D398C7 /* ConnpassAPIKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,7 +130,27 @@
 			path = ConnpassAPIClient;
 			sourceTree = "<group>";
 		};
+		5C704FDC1C224DA900D398C7 /* ConnpassAPIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5C704FDD1C224DA900D398C7 /* ConnpassAPIKit.h */,
+				5C704FDF1C224DA900D398C7 /* Info.plist */,
+			);
+			path = ConnpassAPIKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C704FD81C224DA900D398C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C704FDE1C224DA900D398C7 /* ConnpassAPIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5C39932A1C19827F00AD3AAE /* ConnpassAPIClient */ = {
@@ -93,15 +161,35 @@
 				5C3993281C19827F00AD3AAE /* Frameworks */,
 				5C3993291C19827F00AD3AAE /* Resources */,
 				5C39935C1C1984ED00AD3AAE /* ShellScript */,
+				5C704FCE1C223F0800D398C7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5C704FE11C224DA900D398C7 /* PBXTargetDependency */,
 			);
 			name = ConnpassAPIClient;
 			productName = MyConnpass;
 			productReference = 5C39932B1C19827F00AD3AAE /* ConnpassAPIClient.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5C704FDA1C224DA900D398C7 /* ConnpassAPIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C704FE41C224DAA00D398C7 /* Build configuration list for PBXNativeTarget "ConnpassAPIKit" */;
+			buildPhases = (
+				5C704FD61C224DA900D398C7 /* Sources */,
+				5C704FD71C224DA900D398C7 /* Frameworks */,
+				5C704FD81C224DA900D398C7 /* Headers */,
+				5C704FD91C224DA900D398C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnpassAPIKit;
+			productName = ConnpassAPIKit;
+			productReference = 5C704FDB1C224DA900D398C7 /* ConnpassAPIKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -114,6 +202,9 @@
 				ORGANIZATIONNAME = JPMartha;
 				TargetAttributes = {
 					5C39932A1C19827F00AD3AAE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5C704FDA1C224DA900D398C7 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -132,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				5C39932A1C19827F00AD3AAE /* ConnpassAPIClient */,
+				5C704FDA1C224DA900D398C7 /* ConnpassAPIKit */,
 			);
 		};
 /* End PBXProject section */
@@ -144,6 +236,13 @@
 				5C3993391C19827F00AD3AAE /* LaunchScreen.storyboard in Resources */,
 				5C3993361C19827F00AD3AAE /* Assets.xcassets in Resources */,
 				5C3993341C19827F00AD3AAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C704FD91C224DA900D398C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +279,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C704FD61C224DA900D398C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C704FEA1C226F2000D398C7 /* Connpass.swift in Sources */,
+				5C704FEB1C226F2300D398C7 /* ResponseField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C704FE11C224DA900D398C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C704FDA1C224DA900D398C7 /* ConnpassAPIKit */;
+			targetProxy = 5C704FE01C224DA900D398C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5C3993321C19827F00AD3AAE /* Main.storyboard */ = {
@@ -287,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -302,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -310,6 +428,54 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.martha.ConnpassAPIClient;
 				PRODUCT_NAME = ConnpassAPIClient;
+			};
+			name = Release;
+		};
+		5C704FE51C224DAA00D398C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ConnpassAPIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.martha.ConnpassAPIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C704FE61C224DAA00D398C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ConnpassAPIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.martha.ConnpassAPIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -333,6 +499,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		5C704FE41C224DAA00D398C7 /* Build configuration list for PBXNativeTarget "ConnpassAPIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C704FE51C224DAA00D398C7 /* Debug */,
+				5C704FE61C224DAA00D398C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
