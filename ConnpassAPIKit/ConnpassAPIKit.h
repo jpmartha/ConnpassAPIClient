@@ -2,7 +2,7 @@
 //  ConnpassAPIKit.h
 //  ConnpassAPIKit
 //
-//  Created by sathachie on 2015/12/17.
+//  Created by JPMartha on 2015/12/17.
 //  Copyright © 2015年 JPMartha. All rights reserved.
 //
 
