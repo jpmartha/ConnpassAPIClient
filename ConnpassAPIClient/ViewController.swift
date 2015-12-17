@@ -16,8 +16,6 @@ ConnpassDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
-    lazy var connpass = Connpass()
-    
     var data = [Event]() {
         didSet {
             tableView.reloadData()
@@ -27,8 +25,8 @@ ConnpassDelegate {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        connpass.delegate = self
-        connpass.sendSearchEventRequest()
+        Connpass.delegate = self
+        Connpass.sendSearchEventRequest()
     }
     
     // MARK: - UITableViewDataSource
