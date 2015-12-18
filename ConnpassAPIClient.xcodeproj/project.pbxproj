@@ -20,6 +20,11 @@
 		5CE1C5661C23AEDB00312972 /* ConnpassAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE1C5651C23AEDB00312972 /* ConnpassAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CE1C56A1C23AEDB00312972 /* ConnpassAPIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE1C5631C23AEDB00312972 /* ConnpassAPIClient.framework */; };
 		5CE1C56B1C23AEDB00312972 /* ConnpassAPIClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE1C5631C23AEDB00312972 /* ConnpassAPIClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5CE1C56F1C23B10600312972 /* Connpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3993631C198AC900AD3AAE /* Connpass.swift */; };
+		5CE1C5701C23B10A00312972 /* ResponseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1ADDBD1C2144AE00DB8D81 /* ResponseField.swift */; };
+		5CE1C5711C23B12400312972 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935D1C198A8500AD3AAE /* APIKit.framework */; };
+		5CE1C5721C23B12700312972 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935F1C198A8500AD3AAE /* Result.framework */; };
+		5CE1C5731C23B12B00312972 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1ADDC11C21867200DB8D81 /* Himotoki.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE1C5711C23B12400312972 /* APIKit.framework in Frameworks */,
+				5CE1C5721C23B12700312972 /* Result.framework in Frameworks */,
+				5CE1C5731C23B12B00312972 /* Himotoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +102,6 @@
 				5C1ADDC11C21867200DB8D81 /* Himotoki.framework */,
 				5C39932D1C19827F00AD3AAE /* ConnpassAPIClient */,
 				5C7050151C22C6AE00D398C7 /* Demo */,
-				5CE1C5641C23AEDB00312972 /* ConnpassAPIClient */,
 				5C39932C1C19827F00AD3AAE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +120,8 @@
 			children = (
 				5C3993631C198AC900AD3AAE /* Connpass.swift */,
 				5C1ADDBD1C2144AE00DB8D81 /* ResponseField.swift */,
+				5CE1C5651C23AEDB00312972 /* ConnpassAPIClient.h */,
+				5CE1C5671C23AEDB00312972 /* Info.plist */,
 			);
 			path = ConnpassAPIClient;
 			sourceTree = "<group>";
@@ -128,15 +137,6 @@
 				5C39933A1C19827F00AD3AAE /* Info.plist */,
 			);
 			path = Demo;
-			sourceTree = "<group>";
-		};
-		5CE1C5641C23AEDB00312972 /* ConnpassAPIClient */ = {
-			isa = PBXGroup;
-			children = (
-				5CE1C5651C23AEDB00312972 /* ConnpassAPIClient.h */,
-				5CE1C5671C23AEDB00312972 /* Info.plist */,
-			);
-			path = ConnpassAPIClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE1C56F1C23B10600312972 /* Connpass.swift in Sources */,
+				5CE1C5701C23B10A00312972 /* ResponseField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +441,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ConnpassAPIClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -459,6 +465,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ConnpassAPIClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
