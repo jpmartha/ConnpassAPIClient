@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5C704FDA1C224DA900D398C7"
-               BuildableName = "ConnpassAPIKit.framework"
-               BlueprintName = "ConnpassAPIKit"
+               BlueprintIdentifier = "5CE1C5621C23AEDB00312972"
+               BuildableName = "ConnpassAPIClient.framework"
+               BlueprintName = "ConnpassAPIClient"
                ReferencedContainer = "container:ConnpassAPIClient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5C704FDA1C224DA900D398C7"
-            BuildableName = "ConnpassAPIKit.framework"
-            BlueprintName = "ConnpassAPIKit"
+            BlueprintIdentifier = "5CE1C5621C23AEDB00312972"
+            BuildableName = "ConnpassAPIClient.framework"
+            BlueprintName = "ConnpassAPIClient"
             ReferencedContainer = "container:ConnpassAPIClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5C704FDA1C224DA900D398C7"
-            BuildableName = "ConnpassAPIKit.framework"
-            BlueprintName = "ConnpassAPIKit"
+            BlueprintIdentifier = "5CE1C5621C23AEDB00312972"
+            BuildableName = "ConnpassAPIClient.framework"
+            BlueprintName = "ConnpassAPIClient"
             ReferencedContainer = "container:ConnpassAPIClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
