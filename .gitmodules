@@ -1,5 +1,5 @@
-[submodule "connpass-api-client"]
-	path = connpass-api-client
+[submodule "Carthage/Checkouts/APIKit"]
+	path = Carthage/Checkouts/APIKit
 	url = https://github.com/ishkawa/APIKit.git
 [submodule "Carthage/Checkouts/Himotoki"]
 	path = Carthage/Checkouts/Himotoki
