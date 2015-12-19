@@ -67,6 +67,7 @@
 		5CE1C5631C23AEDB00312972 /* ConnpassAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConnpassAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE1C5651C23AEDB00312972 /* ConnpassAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnpassAPIClient.h; sourceTree = "<group>"; };
 		5CE1C5671C23AEDB00312972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE1C5771C24D76F00312972 /* Demo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Demo.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		5C3993221C19827F00AD3AAE = {
 			isa = PBXGroup;
 			children = (
+				5CE1C5771C24D76F00312972 /* Demo.playground */,
 				5C39935D1C198A8500AD3AAE /* APIKit.framework */,
 				5C39935F1C198A8500AD3AAE /* Result.framework */,
 				5C1ADDC11C21867200DB8D81 /* Himotoki.framework */,
