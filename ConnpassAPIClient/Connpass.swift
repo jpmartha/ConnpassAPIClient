@@ -13,7 +13,7 @@ protocol ConnpassDelegate {
     func searchEventDidFinish(events: [Event])
 }
 
-public class Connpass {
+public final class Connpass {
     
     static var delegate: ConnpassDelegate?
     
