@@ -9,17 +9,11 @@
 import Foundation
 import APIKit
 
-protocol ConnpassDelegate {
-    func searchEventDidFinish(events: [Event])
-}
-
 public final class Connpass {
-    
-    static var delegate: ConnpassDelegate?
-    
+
     static var events = [Event]()
     
-    public static func sendSearchEventRequest() {
+    public static func sendSearchEventRequest(completion: ((result: [Event]?) -> Void)?) {
         let request = GetSearchEventRequest()
         
         Session.sendRequest(request) { result in
@@ -40,8 +34,8 @@ public final class Connpass {
                     self.events.append(event)
                 }
                 
-                if let delegate = self.delegate {
-                    delegate.searchEventDidFinish(self.events)
+                if let completion = completion {
+                    completion(result: self.events)
                 }
 
             case .Failure(let error):

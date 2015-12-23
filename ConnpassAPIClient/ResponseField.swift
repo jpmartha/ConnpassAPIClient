@@ -56,13 +56,13 @@ struct ResponseField: Decodable {
     }
 }
 
-struct Event: Decodable {
+public struct Event: Decodable {
     let event_id: Int
     let title: String
     let description: String
     let event_url: String
     
-    static func decode(e: Extractor) throws -> Event {
+    public static func decode(e: Extractor) throws -> Event {
         return try Event(
             event_id: e <| "event_id",
             title: e <| "title",

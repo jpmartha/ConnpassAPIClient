@@ -11,22 +11,25 @@ import SafariServices
 
 class ViewController: UIViewController,
 UITableViewDataSource, UITableViewDelegate,
-SFSafariViewControllerDelegate,
-ConnpassDelegate {
+SFSafariViewControllerDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
     var data = [Event]() {
         didSet {
-            tableView.reloadData()
+            dispatch_async(dispatch_get_main_queue()) {
+                self.tableView.reloadData()
+            }
         }
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        Connpass.delegate = self
-        Connpass.sendSearchEventRequest()
+        Connpass.sendSearchEventRequest { (events) -> Void in
+            self.data = events!
+        }
+        
     }
     
     // MARK: - UITableViewDataSource

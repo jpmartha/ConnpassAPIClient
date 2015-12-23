@@ -18,7 +18,6 @@
 		5C3993621C198A8500AD3AAE /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935F1C198A8500AD3AAE /* Result.framework */; };
 		5C3993641C198AC900AD3AAE /* Connpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3993631C198AC900AD3AAE /* Connpass.swift */; };
 		5CE1C5661C23AEDB00312972 /* ConnpassAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE1C5651C23AEDB00312972 /* ConnpassAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CE1C56A1C23AEDB00312972 /* ConnpassAPIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE1C5631C23AEDB00312972 /* ConnpassAPIClient.framework */; };
 		5CE1C56F1C23B10600312972 /* Connpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3993631C198AC900AD3AAE /* Connpass.swift */; };
 		5CE1C5701C23B10A00312972 /* ResponseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1ADDBD1C2144AE00DB8D81 /* ResponseField.swift */; };
 		5CE1C5711C23B12400312972 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39935D1C198A8500AD3AAE /* APIKit.framework */; };
@@ -73,7 +72,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C1ADDC21C21867200DB8D81 /* Himotoki.framework in Frameworks */,
-				5CE1C56A1C23AEDB00312972 /* ConnpassAPIClient.framework in Frameworks */,
 				5C3993601C198A8500AD3AAE /* APIKit.framework in Frameworks */,
 				5C3993621C198A8500AD3AAE /* Result.framework in Frameworks */,
 			);
